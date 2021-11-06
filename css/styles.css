@@ -20,6 +20,13 @@ body {
 }
 
 /* -----------HEADER--------------- */
+.header-left-link:hover,
+.header-left-link:focus,
+.header-rihgt-link:hover,
+.header-rihgt-link:focus {
+  color: var(--accent-color);
+}
+
 .header-logo {
   font-family: Raleway;
   font-style: normal;
@@ -36,6 +43,12 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.header-left-link {
+  color: var(--first-text-color);
+}
+.header-rihgt-link {
+  color: var(--second-text-color);
 }
 
 /* ----------MAIN--------------- */
@@ -147,6 +160,12 @@ body {
 }
 
 /* -----------PORTFOLIO-HTML---------------------------- */
+.main-filter-btn:hover,
+.main-filter-btn:focus {
+  color: var(--third-text-color);
+  background-color: var(--accent-color);
+}
+
 .project-name {
   font-weight: bold;
   font-size: 18px;
