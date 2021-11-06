@@ -1,0 +1,173 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #212121;
+  --accent-color: #2196f3;
+  --first-text-color: #212121;
+  --second-text-color: #757575;
+  --third-text-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* -----------HEADER--------------- */
+.header-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.header-left-item,
+.header-rihgt-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* ----------MAIN--------------- */
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+  /* -------Временно---------------- */
+  background-color: var(--second-text-color);
+}
+
+.main-btn {
+  /* font-family: Roboto; */
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+  background: #2196f3;
+}
+
+.pointer {
+  cursor: pointer;
+}
+/* ----------FEATURES-------------------------- */
+
+.features-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--first-text-color);
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+/* --------ABOUT-------------------------- */
+.about-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+/* --------ABOUT-OUR-TEAM--------------------- */
+.our-team {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+.our-developer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+}
+
+.developer-position {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+/* ---------FOOTER----------------------- */
+
+.footer-logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  /* ------ВРЕМЕННО----------- */
+  background-color: var(--second-text-color);
+}
+
+.footer-address-item {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+
+/* --------SERVISE-CLASS-------------------- */
+
+.accent-color {
+  color: var(--accent-color);
+}
+
+.first-text-color {
+  color: var(--first-text-color);
+}
+
+.second-text-color {
+  color: var(--second-text-color);
+}
+
+.third-text-color {
+  color: var(--third-text-color);
+  /* ---временно-------------------- */
+  background-color: var(--second-text-color);
+}
+
+.third-text-color-transparence {
+  color: rgba(255, 255, 255, 0.6);
+  /* ---временно-------------------- */
+  background-color: var(--second-text-color);
+}
