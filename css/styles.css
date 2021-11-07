@@ -1,14 +1,15 @@
 body {
   font-family: Roboto, sans-serif;
+  background: var(--third-text-colorr);
 }
 
 :root {
-  --main-title-color: #ffffff;
-  --second-title-color: #212121;
   --accent-color: #2196f3;
   --first-text-color: #212121;
   --second-text-color: #757575;
   --third-text-color: #ffffff;
+  --first-background-color: #f5f4fa;
+  --second-background-color: #2f303a;
 }
 
 .list {
@@ -34,9 +35,12 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--accent-color);
 }
 
+.header-lofo-syffix {
+  color: var(--first-text-color);
+}
 .header-left-item,
 .header-rihgt-item {
   font-weight: 500;
@@ -52,6 +56,9 @@ body {
 }
 
 /* ----------MAIN--------------- */
+.title-section {
+  background-color: var(--second-background-color);
+}
 
 .main-title {
   font-weight: 900;
@@ -59,28 +66,24 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--main-title-color);
-  /* -------Временно---------------- */
-  background-color: var(--second-text-color);
+  color: var(--third-text-color);
 }
 
 .main-btn {
-  /* font-family: Roboto; */
-
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  /* display: flex; */
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--main-title-color);
-  background: #2196f3;
-}
-
-.pointer {
+  color: var(--third-text-color);
+  background: var(--accent-color);
+  border-radius: 4px;
+  border: none;
   cursor: pointer;
 }
+
 /* ----------FEATURES-------------------------- */
 
 .features-title {
@@ -100,25 +103,19 @@ body {
 }
 
 /* --------ABOUT-------------------------- */
-.about-title {
+.universal-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--second-title-color);
+  color: var(--second-text-color);
 }
 
 /* --------ABOUT-OUR-TEAM--------------------- */
 .our-team {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
+  background: var(--first-background-color);
 }
-
 .our-developer {
   font-weight: 500;
   font-size: 16px;
@@ -129,9 +126,6 @@ body {
 }
 
 .developer-position {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -140,6 +134,16 @@ body {
 }
 
 /* ---------FOOTER----------------------- */
+.third-text-color:hover,
+.third-text-color:focus,
+.third-text-color-transparence:hover,
+.third-text-color-transparence:focus {
+  color: var(--accent-color);
+}
+
+.footer-section {
+  background: var(--second-background-color);
+}
 
 .footer-logo {
   font-family: Raleway;
@@ -147,9 +151,10 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
-  /* ------ВРЕМЕННО----------- */
-  background-color: var(--second-text-color);
+  color: var(--accent-color);
+}
+.footer-logo-syffix {
+  color: var(--third-text-color);
 }
 
 .footer-address-item {
@@ -160,21 +165,29 @@ body {
 }
 
 /* -----------PORTFOLIO-HTML---------------------------- */
-.main-filter-btn:hover,
-.main-filter-btn:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   color: var(--third-text-color);
   background-color: var(--accent-color);
 }
 
-.project-name {
+.filter-btn {
+  font-family: inherit;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--first-background-color);
+  cursor: pointer;
+}
+
+.filter-name {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--second-title-color);
+  color: var(--second-text-color);
 }
 
-.type-of-project {
+.filter-type {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -196,12 +209,10 @@ body {
 
 .third-text-color {
   color: var(--third-text-color);
-  /* ---временно-------------------- */
-  background-color: var(--second-text-color);
+  font-style: normal;
 }
 
 .third-text-color-transparence {
   color: rgba(255, 255, 255, 0.6);
-  /* ---временно-------------------- */
-  background-color: var(--second-text-color);
+  font-style: normal;
 }
