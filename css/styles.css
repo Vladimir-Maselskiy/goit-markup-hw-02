@@ -48,11 +48,15 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .header-left-link {
   color: var(--first-text-color);
 }
 .header-rihgt-link {
   color: var(--second-text-color);
+}
+.header-left-link.link.current {
+  color: var(--accent-color);
 }
 
 /* ----------MAIN--------------- */
@@ -177,6 +181,10 @@ body {
   border: none;
   background-color: var(--first-background-color);
   cursor: pointer;
+}
+.filter-btn.current-btn {
+  background-color: var(--accent-color);
+  color: var(--third-text-color);
 }
 
 .filter-name {
